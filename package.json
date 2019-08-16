@@ -15,7 +15,7 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint index.js",
-    "test": "mocha",
+    "test": "npm run build && mocha",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
     "build": "babel index.js --out-dir lib --presets=@babel/env"

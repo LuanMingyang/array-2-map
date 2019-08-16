@@ -1,5 +1,5 @@
 const assert = require("assert");
-const toKeyMap = require("../index.js");
+const toKeyMap = require("../lib/index");
 
 
 describe('array2map', function () {

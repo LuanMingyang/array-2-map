@@ -1,4 +1,8 @@
-# array-to-map
+# array-2-map
+
+[![Build Status](https://travis-ci.org/LuanMingyang/array-2-map.svg?branch=master)](https://travis-ci.org/LuanMingyang/array-2-map)
+[![Coverage Status](https://coveralls.io/repos/github/LuanMingyang/array-2-map/badge.svg?branch=master)](https://coveralls.io/github/LuanMingyang/array-2-map?branch=master)
+[![License](https://img.shields.io/github/license/LuanMingyang/array-2-map.svg?maxAge=2592000)](https://github.com/LuanMingyang/array-2-map/blob/master/LICENSE)
 
 A tool that converts an array to a map.
 
