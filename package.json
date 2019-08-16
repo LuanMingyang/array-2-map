@@ -1,0 +1,35 @@
+{
+  "name": "array-2-map",
+  "version": "1.0.0",
+  "description": "convert array to map",
+  "keywords": [
+    "utils",
+    "array",
+    "map",
+    "object",
+    "array-to-map",
+    "array-to-object",
+    "array-2-map",
+    "array-2-object"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "mocha",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
+    "build": "babel index.js --out-dir lib --presets=@babel/env"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "coveralls": "^3.0.6",
+    "eslint": "^6.1.0",
+    "istanbul": "^1.0.0-alpha.2",
+    "mocha": "^6.2.0"
+  }
+}
