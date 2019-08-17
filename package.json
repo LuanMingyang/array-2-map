@@ -1,6 +1,6 @@
 {
   "name": "array-2-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert array to map",
   "keywords": [
     "utils",
@@ -8,9 +8,7 @@
     "map",
     "object",
     "array-to-map",
-    "array-to-object",
-    "array-2-map",
-    "array-2-object"
+    "array-to-object"
   ],
   "main": "lib/index.js",
   "scripts": {
