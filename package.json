@@ -1,7 +1,11 @@
 {
   "name": "array-2-map",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "convert array to map",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuanMingyang/array-2-map.git"
+  },
   "keywords": [
     "utils",
     "array",
@@ -18,8 +22,9 @@
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
     "build": "babel index.js --out-dir lib --presets=@babel/env"
   },
-  "author": "",
+  "author": "LuanMingyang",
   "license": "MIT",
+  "homepage": "https://github.com/LuanMingyang/array-2-map",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.5.5",
